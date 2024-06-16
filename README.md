@@ -5,6 +5,6 @@ The mountains are calling and I must go. - John Muir
 - Understanding virtualization (docker).
 - Understanding the similarities and differences between EC2, ECS, and Lambda.
 
-## [Week 2: Stroage: Store & Load](./week2/)
+## [Week 2: Storage: Store & Load](./week2/)
 - Learn the concepts of object storage, file storage, and block storage.
 - Understand the pros and cons of each and when to use them.
