@@ -61,7 +61,7 @@ def benchmark_efs():
     upload_times = []
     download_times = []
 
-    efs_mount = "../"
+    efs_mount = "~/efs"
     for _ in range(n_samples):
         start = time.time()
         with open(filename, "rb") as f_src:
