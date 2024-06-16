@@ -1,7 +1,8 @@
 # Week 2
-- Slack notification when S3 Upload
 
-## How to run
+## 1. Slack notification when S3 Upload
+
+### How to run
 1. Create virtual environment and install dependencies
     ```bash
     python -m virtualenv venv
@@ -21,3 +22,10 @@
     ```
 
 4. Upload the zip file to your AWS Lambda
+
+## Load/Store performance comparsion between Amazon EBS, EFS, S3
+| Storage type | Upload (s) | Download (s) |
+| --- | --- | --- |
+| S3 | 0.136 | 0.135 |
+| EBS | 0.060 | 0.071 |
+| EFS | 0.073 | 0.061 |
